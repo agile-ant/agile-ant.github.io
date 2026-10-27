@@ -1,107 +1,36 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Agile Ant</title>
-
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 60px 24px;
-      line-height: 1.6;
-      color: #222;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    .venue {
-      text-align: center;
-      font-size: 1.1rem;
-      color: #666;
-      margin-bottom: 28px;
-    }
-
-    .links {
-      text-align: center;
-      margin-bottom: 50px;
-    }
-
-    .links a {
-      display: inline-block;
-      margin: 5px;
-      padding: 9px 18px;
-      border-radius: 6px;
-      background: #222;
-      color: white;
-      text-decoration: none;
-    }
-
-    h2 {
-      margin-top: 45px;
-    }
-
-    .placeholder {
-      background: #f3f3f3;
-      border-radius: 10px;
-      padding: 40px;
-      text-align: center;
-      color: #777;
-    }
-
-    video {
-      width: 100%;
-      border-radius: 10px;
-    }
-  </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Agile Ant: An iconic design in the wild</title>
+<style>
+:root {font-family: Arial, Helvetica, sans-serif;color:#333;background:#fff}
+*{box-sizing:border-box} body{margin:0} main{max-width:1240px;margin:auto;padding:52px 28px 85px}
+header{text-align:center}h1{font-size:clamp(36px,5.2vw,67px);line-height:1.45;font-weight:700;letter-spacing:-1.6px;margin:0 auto 63px;max-width:1150px}
+.authors{display:flex;flex-wrap:wrap;gap:16px 32px;justify-content:center;max-width:1050px;margin:auto;font-weight:700;font-size:clamp(17px,2.3vw,26px);color:#686868}
+.authors a{color:inherit;text-decoration:underline}.authors sup{font-size:.62em}.affiliations{margin:30px auto 59px;font-size:clamp(17px,2.2vw,26px);line-height:1.8}.affiliations p{margin:0}
+.links{display:flex;justify-content:center;flex-wrap:wrap;gap:18px;margin:0 auto 85px}.pill{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-width:180px;padding:20px 27px;border:1px solid #aec0d5;border-radius:100px;background:linear-gradient(#f7f8fa,#eaedf2);box-shadow:0 12px 25px #00000014,inset 0 0 0 5px #ffffff60;font-size:24px;font-weight:700;color:#333;text-decoration:none}.pill svg{width:23px;height:23px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.pill.disabled{opacity:.7;cursor:default}.pill:not(.disabled):hover{background:#e5ecf5}
+.panel{background:#f8f9fb;border:1px solid #e3e8ee;border-radius:19px;box-shadow:0 18px 30px #00000012;padding:42px 47px 55px;margin:0 auto 65px}h2{font-size:clamp(26px,2.7vw,33px);margin:0 0 25px;color:#334255}.panel p{font-size:clamp(18px,2.1vw,25px);line-height:1.54;margin:0;text-align:justify}
+.video-section{max-width:1120px;margin:0 auto}.video-section h2{margin-bottom:24px}.video-frame{width:100%;aspect-ratio:16/9;background:#edf0f4;border-radius:8px;overflow:hidden;position:relative;display:grid;place-items:center;border:1px solid #d8dfe7}.video-frame video,.video-frame iframe{width:100%;height:100%;display:block;border:0}.video-placeholder{position:relative;width:100%;height:100%;display:grid;place-items:center;background:linear-gradient(#0003,#0008),url('ant-photo.webp') center/cover;color:white;text-align:center}.video-placeholder .message{background:#0009;padding:15px 20px;border-radius:8px;max-width:80%;font-size:17px}.video-caption{text-align:center;color:#555;font-size:17px;margin:16px 0}
+@media(max-width:750px){main{padding:30px 15px 60px}h1{line-height:1.15;letter-spacing:-.6px;margin-bottom:34px}.authors{gap:11px 20px}.affiliations{margin:25px auto 32px}.links{gap:10px;margin-bottom:45px}.pill{font-size:17px;min-width:135px;padding:12px 20px;gap:10px}.pill svg{width:18px;height:18px}.panel{padding:25px 22px 30px;margin-bottom:50px}.panel p{text-align:left}.video-caption{font-size:14px}}
+</style>
 </head>
-
-<body>
-
-  <h1>Agile Ant</h1>
-
-  <div class="venue">
-    Anonymous ICRA 2027 Submission
-  </div>
-
-  <div class="links">
-    <a href="#">Paper</a>
-    <a href="#video">Video</a>
-    <a href="#code">Code</a>
-  </div>
-
-  <h2>Abstract</h2>
-
-  <p>
-    Abstract coming soon.
-  </p>
-
-  <h2 id="video">Video</h2>
-
-  <div class="placeholder">
-    Supplementary video coming soon.
-  </div>
-
-  <h2>Results</h2>
-
-  <div class="placeholder">
-    Additional results and demonstrations coming soon.
-  </div>
-
-  <h2 id="code">Code</h2>
-
-  <p>
-    Code will be released following the review period.
-  </p>
-
-</body>
-</html>
-```
+<body><main>
+<header>
+<h1>The Agile Ant:<br>An iconic design in the wild</h1>
+<div class="authors"><span><u>Daniel Shamsoddini</u><sup>1</sup></span><span><u>David Matthews</u><sup>1</sup></span><span><u>Chen Yu</u><sup>1</sup></span><span><u>Sam Kriegman</u><sup>1</sup></span></div>
+<div class="affiliations"><p><sup>1</sup>Center for Robotics and Biosystems, Northwestern University</p></div>
+<div class="links">
+<!-- Replace placeholders with real URLs to enable these buttons. -->
+<span class="pill disabled" title="Add paper URL"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h6"/></svg>Paper</span>
+<span class="pill disabled" title="Add code URL"><svg viewBox="0 0 24 24"><path d="M9 19c-4 1-4-2-6-2m12 4v-3.1a3 3 0 0 0-.8-2.4c2.8-.3 5.8-1.4 5.8-6.3a5 5 0 0 0-1.4-3.5 4.6 4.6 0 0 0-.1-3.4S17 2 15 4a13 13 0 0 0-6 0C7 2 5.5 2.3 5.5 2.3a4.6 4.6 0 0 0-.1 3.4A5 5 0 0 0 4 9.2c0 4.9 3 6 5.8 6.3A3 3 0 0 0 9 18v3"/></svg>Code</span>
+<span class="pill disabled" title="Add gallery link if desired"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 16-5-5L5 21"/></svg>Gallery</span>
+<span class="pill disabled" title="Add press link if desired"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h6M7 12h6M7 16h6M16 9h2M16 13h2"/></svg>Press</span>
+<span class="pill disabled" title="Add contact email"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 8 10-8"/></svg>Contact</span>
+</div>
+</header>
+<section class="panel"><h2>Abstract</h2><p>One of the most popular testbeds for learning locomotion policies is a simulated agent called “ant”, which incidentally does not in any way, shape, or form resemble the insect. It is roughly the size of a giant panda and consists of four spherocylinder legs distributed with radial symmetry about a spherical torso. This raises several questions. Here we consider the relevance of this strange but iconic simulated design for physical robots. We trace its history in the literature, realize a scale replica (55%), and explore the challenges and opportunities of its unique body plan. We find that with certain components and attendant system identification the physical instantiation is capable of agile locomotion in the wild, somersaulting, freely spinning on its sphere, running upside down and right side up—and doing so forward, backward, and sideways, equally well, at top speed. We provide detailed instructions for building the Agile Ant in addition to the grounded simulation environment, which we hope can serve as a bridge between the classic machine learning benchmark and robotics.</p></section>
+<section class="video-section"><h2>Video</h2><div class="video-frame">
+<iframe src="https://www.youtube-nocookie.com/embed/ukm__wUmYko" title="The Agile Ant demonstration video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+</div><p class="video-caption">The Agile Ant running, flipping, somersaulting, and spinning in the wild.</p></section>
+</main></body></html>
